@@ -14,3 +14,7 @@ mbedos/*.o
 
 # Ignore wifi setup
 .wifi_credentials
+
+.pio
+
+.vscode
