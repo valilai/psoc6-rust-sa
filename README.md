@@ -7,4 +7,6 @@ This project is currently a WIP
 # author
 Hi, thats me ;) I'm a programming science student from Bavaria. You can contact me via email or write a new GitHub issue if there is a problem with the code. <br/>
 <br/>
-email: valentin.lairich@gmail.com
+email: valentin.lairich@gmail.com <br/>
+version = "0.1.0" <br/>
+edition = "Oct.12.2022"

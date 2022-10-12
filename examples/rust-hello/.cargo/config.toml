@@ -11,5 +11,5 @@ rustflags = [
 ]
 
 [build]
-#target = "thumbv7em-none-eabi"
-target = "thumbv6m-none-eabi"
+#target = "thumbv7em-none-eabi" #cortex m4
+target = "thumbv6m-none-eabi" #cortex m0+
