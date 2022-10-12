@@ -38,6 +38,7 @@ For cross-compilation we are using ubuntu 22.04.1 LTS on a Lenovo ThinkPad T14s 
    ``cargo install cargo-clone``
    ``cargo install cargo-edit``
    ``cargo install cargo-binutils``
+   ``cargo install cargo-embed``
 
 4. install OpenOCD
    ``sudo apt-get install openocd``
@@ -54,7 +55,8 @@ For cross-compilation we are using ubuntu 22.04.1 LTS on a Lenovo ThinkPad T14s 
    ``sudo apt install sublime-text`` 
    --> use sublime text with ``subl`` command. 
 
-
+7. install gdb-multiarch & minicom
+   ``sudo apt-get install gdb-multiarch minicom``
 Build hello world program
 -------------------------
 For our first hello world program we will use the hal & pac from https://github.com/psoc-rs
