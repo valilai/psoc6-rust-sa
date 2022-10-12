@@ -1,0 +1,1 @@
+{"rustc":1100423376787139314,"features":"","target":0,"profile":0,"path":0,"deps":[[4370121478323255667,"build_script_build",false,1828620933812923898]],"local":[{"RerunIfChanged":{"output":"thumbv6m-none-eabi/debug/build/psoc6-pac-58542f86bb608f78/output","paths":["build.rs"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}
