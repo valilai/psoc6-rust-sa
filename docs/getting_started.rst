@@ -37,6 +37,7 @@ For cross-compilation we are using ubuntu 22.04.1 LTS on a Lenovo ThinkPad T14s 
 3. install cargo subcommands:
    ``cargo install cargo-clone``
    ``cargo install cargo-edit``
+   ``cargo install cargo-binutils``
 
 4. install OpenOCD
    ``sudo apt-get install openocd``
@@ -63,17 +64,24 @@ written by mvertescher & jonas-schievink
    ``cargo new rust-hello``
 
 2. open application project with editor
-   ``cd rust-hello``
-   ``subl .``
+   .. code-block:: shell
+
+        cd rust-hello
+        subl .
 
 3. edit cargo configuration file Cargo.toml
-   ``panic-halt = "0.2.0"
-   [dependencies.psoc6-hal]
-   git = "https://github.com/psoc-rs/psoc6-hal"
-   rev = "86684f0"`` 
+   .. code-block:: yaml
+        
+        panic-halt = "0.2.0"
+        [dependencies.psoc6-hal]
+        git = "https://github.com/psoc-rs/psoc6-hal"
+        rev = "86684f0" 
 
 4. update application project
    ``cargo update``
+
+5. build program
+   ``cargo build``
 
 Create psoc6 HL
 --------------
