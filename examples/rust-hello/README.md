@@ -20,7 +20,8 @@ To build and flash this program follow these steps: <br/>
 14. Now the message "Hello, world! Rust" shuld be printed on the openocd console
 
 * make sure you are in this directory
-
+<br/>
+It is recommended to work with tmux so you can split your terminal
 # PsoC 6
 This program is build for the cortex M0+ of the PsoC. If you want to build it for the cortex M4F than change the target line in .cargo/config.toml
 

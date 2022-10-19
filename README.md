@@ -9,4 +9,4 @@ Hi, thats me ;) I'm a programming science student from Bavaria. You can contact 
 <br/>
 email: valentin.lairich@gmail.com <br/>
 version = "0.1.0" <br/>
-edition = "Oct.12.2022"
+edition = "Oct.19.2022"
