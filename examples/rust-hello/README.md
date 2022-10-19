@@ -1,6 +1,5 @@
 # rust-hello
 This is a first hello world program to test cargo build, flash and debug. <br/>
-This projest is WIP ! <br/>
 
 # getting-started
 To build and flash this program follow these steps: <br/>
