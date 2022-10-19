@@ -30,8 +30,6 @@ use panic_halt as _;*/
 /*#[psoc6_hal::entry]*/
 #[entry]
 fn main() -> ! {
-    /*hprintln!("Hello, world! Rust").unwrap();*/
-    loop{
-        hprintln!("Hello, world! Rust").unwrap();   
-    }
+    hprintln!("Hello, world! Rust").unwrap();
+    loop{}
 }
